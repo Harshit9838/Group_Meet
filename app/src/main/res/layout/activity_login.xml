@@ -29,14 +29,14 @@
             android:layout_margin="10dp"
             android:orientation="vertical">
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginBottom="10dp"
                 app:srcCompat="@drawable/meeting" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -72,14 +72,14 @@
                 android:inputType="textPassword"
                 android:padding="10dp" />
 
-            <TextView
+            <!--<androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
                 android:layout_marginRight="5dp"
                 android:gravity="right"
-                android:text="Forgot Password?" />
+                android:text="Forgot Password?" />-->
 
             <Button
                 android:id="@+id/loginbtn"

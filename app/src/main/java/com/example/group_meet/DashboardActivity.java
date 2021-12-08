@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 import org.jitsi.meet.sdk.JitsiMeet;
 import org.jitsi.meet.sdk.JitsiMeetActivity;
@@ -27,6 +28,7 @@ public class DashboardActivity extends AppCompatActivity {
         secretCodeBox = findViewById(R.id.codeBox);
         joinBtn = findViewById(R.id.joinBtn);
         shareBtn = findViewById(R.id.shareBtn);
+
 
         URL serverURL;
 
